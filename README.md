@@ -19,6 +19,7 @@ Open a **second** PowerShell terminal in the project folder:
 ```powershell
 .\start-frontend.bat
 ```
+<img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/829c0f5b-c114-4bf6-a1ec-458062277706" />
 
 Open the URL Vite prints, normally `http://localhost:5173`.
 
