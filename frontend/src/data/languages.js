@@ -1,0 +1,1 @@
+export const languages=[{id:'hi',name:'Hindi',native:'हिन्दी',emoji:'🇮🇳'},{id:'en',name:'English',native:'English',emoji:'🌎'},{id:'bn',name:'Bengali',native:'বাংলা',emoji:'🌸'}];export const nativeLanguages=languages;

@@ -1,0 +1,3 @@
+import React from 'react';
+
+export default function GameScene({scene,npc}){return <div className={'scene '+scene}><div className="sun">☀</div>{scene==='garden'&&<><span className="tree t1">🌳</span><span className="tree t2">🌳</span><span className="flowers">🌷 🌼 🌻</span><span className="bench">🪑</span></>}{scene==='tea'&&<><div className="stall">CHAI<br/>☕<small>चाय • চা</small></div><span className="lamp">🏮</span></>}{scene==='campus'&&<><div className="building">BHASHA COLLEGE<br/>🎓</div><span className="sign">📍 CLASSROOMS →</span></>}<div className="person player">🧑‍🚀<small>You</small></div><div className="person npc">{scene==='tea'?'🧑🏽‍🍳':scene==='campus'?'🧑🏽‍🎓':'🧑🏽'}<small>{npc}</small></div><span className="live">EXPLORE MODE · LIVE</span></div>}
