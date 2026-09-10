@@ -41,6 +41,8 @@ python -m venv venv
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
 ```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d786eb4b-5454-4365-a1a9-bb11f5402fa5" />
+
 
 ## AI Mentor
 Copy `backend/.env.example` to `backend/.env` and add your LLM endpoint/key if you want a real AI provider. The app has local fallback behavior when no provider is configured.
